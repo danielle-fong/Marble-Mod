@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "marblestone:block/marble_block"
+        }
+    }
+}
