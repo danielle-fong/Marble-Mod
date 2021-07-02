@@ -1,6 +1,6 @@
 {
     "parent":"minecraft:item/generated",
     "textures":{
-        "layer0": "marbleblock:item/marble"
+        "layer0": "marblestone:item/marble_stone"
     }
 }

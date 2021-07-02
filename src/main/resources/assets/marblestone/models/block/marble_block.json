@@ -1,0 +1,6 @@
+{
+    "parent":"minecraft:block/cube_all",
+    "textures":{
+        "all": "marblestone:block/marble_block"
+    }
+}

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "marbleblock",
+  "id": "marblestone",
   "version": "${version}",
 
-  "name": "Marble Block",
+  "name": "Marble Stone",
   "description": "Adds decorative a marble block into Minecraft!",
   "authors": [
     "ratattataaa"
@@ -14,16 +14,16 @@
   },
 
   "license": "CC BY-NC-SA 3.0",
-  "icon": "assets/marbleblock/icon.png",
+  "icon": "assets/marblestone/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "ratattataaa.marble.block.MarbleBlock"
+      "ratattataaa.marble.stone.MarbleStone"
     ]
   },
   "mixins": [
-    "marbleblock.mixins.json"
+    "marblestone.mixins.json"
   ],
 
   "depends": {
