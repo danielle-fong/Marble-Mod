@@ -1,22 +1,22 @@
 {
-    "type": "minecraft:block",
+    "type": "marblestone:block",
     "pools": [
       {
         "rolls": 1.0,
         "bonus_rolls": 0.0,
         "entries": [
           {
-            "type": "minecraft:alternatives",
+            "type": "marblestone:alternatives",
             "children": [
               {
-                "type": "minecraft:item",
+                "type": "marblestone:item",
                 "conditions": [
                   {
-                    "condition": "minecraft:match_tool",
+                    "condition": "marblestone:match_tool",
                     "predicate": {
                       "enchantments": [
                         {
-                          "enchantment": "minecraft:silk_touch",
+                          "enchantment": "marblestone:silk_touch",
                           "levels": {
                             "min": 1
                           }
@@ -25,40 +25,40 @@
                     }
                   }
                 ],
-                "name": "minecraft:glowstone"
+                "name": "marblestone:marble_block"
               },
               {
-                "type": "minecraft:item",
+                "type": "marblestone:item",
                 "functions": [
                   {
-                    "function": "minecraft:set_count",
+                    "function": "marblestone:set_count",
                     "count": {
-                      "type": "minecraft:uniform",
+                      "type": "marblestone:uniform",
                       "min": 2.0,
                       "max": 4.0
                     },
                     "add": false
                   },
                   {
-                    "function": "minecraft:apply_bonus",
-                    "enchantment": "minecraft:fortune",
-                    "formula": "minecraft:uniform_bonus_count",
+                    "function": "marblestone:apply_bonus",
+                    "enchantment": "marblestone:fortune",
+                    "formula": "marblestone:uniform_bonus_count",
                     "parameters": {
                       "bonusMultiplier": 1
                     }
                   },
                   {
-                    "function": "minecraft:limit_count",
+                    "function": "marblestone:limit_count",
                     "limit": {
                       "max": 4.0,
                       "min": 1.0
                     }
                   },
                   {
-                    "function": "minecraft:explosion_decay"
+                    "function": "marblestone:explosion_decay"
                   }
                 ],
-                "name": "minecraft:marble_stone"
+                "name": "marblestone:marble_stone"
               }
             ]
           }
