@@ -1,6 +1,6 @@
 {
     "parent":"minecraft:block/cube_all",
     "textures":{
-        "all": "marblemod:block/marble_block"
+        "all": "marblemod:block/marble_light"
     }
 }
