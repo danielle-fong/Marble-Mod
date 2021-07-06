@@ -6,10 +6,10 @@
     ],
     "key": {
       "#": {
-        "item": "marblestone:marble_stone"
+        "item": "marblemod:marble_stone"
       }
     },
     "result": {
-      "item": "marblestone:marble_block"
+      "item": "marblemod:marble_block"
     }
   }

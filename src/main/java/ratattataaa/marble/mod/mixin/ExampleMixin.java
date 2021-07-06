@@ -1,4 +1,4 @@
-package ratattataaa.marble.stone.mixin;
+package ratattataaa.marble.mod.mixin;
 
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
