@@ -14,19 +14,23 @@ import net.minecraft.util.registry.Registry;
 
 public class MarbleMod implements ModInitializer {
 
-	public static final Item MARBLE_STONE = new Item(new Item.Settings().group(ItemGroup.MISC));
+	public static final Item LIMESTONE_LIGHT = new Item(new Item.Settings().group(ItemGroup.MISC));
 
 	public static final Block MARBLE_LIGHT = new Block(FabricBlockSettings.of(Material.STONE).strength(1.5F,6F).sounds(BlockSoundGroup.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool());
+
+	public static final Item LIMESTONE_DARK = new Item(new Item.Settings().group(ItemGroup.MISC));
 	
 	public static final Block MARBLE_DARK = new Block(FabricBlockSettings.of(Material.STONE).strength(1.5F,6F).sounds(BlockSoundGroup.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool());
 
 	@Override
 	public void onInitialize() {
 
-	Registry.register(Registry.ITEM, new Identifier("marblemod","marble_stone"),MARBLE_STONE);
+	Registry.register(Registry.ITEM, new Identifier("marblemod","limestone_light"),LIMESTONE_LIGHT);
 
 	Registry.register(Registry.BLOCK, new Identifier("marblemod","marble_light"),MARBLE_LIGHT);
 	Registry.register(Registry.ITEM, new Identifier("marblemod","marble_light"), new BlockItem(MARBLE_LIGHT, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+
+	Registry.register(Registry.ITEM, new Identifier("marblemod","limestone_dark"),LIMESTONE_DARK);
 
 	Registry.register(Registry.BLOCK, new Identifier("marblemod","marble_dark"),MARBLE_DARK);
 	Registry.register(Registry.ITEM, new Identifier("marblemod","marble_dark"), new BlockItem(MARBLE_DARK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));

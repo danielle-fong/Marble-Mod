@@ -6,10 +6,10 @@
     ],
     "key": {
       "#": {
-        "item": "marblemod:limestone_light"
+        "item": "marblemod:limestone_dark"
       }
     },
     "result": {
-      "item": "marblemod:marble_light"
+      "item": "marblemod:marble_dark"
     }
   }
