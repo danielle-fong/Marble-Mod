@@ -22,6 +22,8 @@ public class MarbleMod implements ModInitializer {
 	
 	public static final Block MARBLE_DARK = new Block(FabricBlockSettings.of(Material.STONE).strength(1.5F,6F).sounds(BlockSoundGroup.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool());
 
+	public static final Block MARBLE_GOLD = new Block(FabricBlockSettings.of(Material.STONE).strength(1.5F,6F).sounds(BlockSoundGroup.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool());
+
 	@Override
 	public void onInitialize() {
 
@@ -34,5 +36,8 @@ public class MarbleMod implements ModInitializer {
 
 	Registry.register(Registry.BLOCK, new Identifier("marblemod","marble_dark"),MARBLE_DARK);
 	Registry.register(Registry.ITEM, new Identifier("marblemod","marble_dark"), new BlockItem(MARBLE_DARK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+
+	Registry.register(Registry.BLOCK, new Identifier("marblemod","marble_gold"),MARBLE_GOLD);
+	Registry.register(Registry.ITEM, new Identifier("marblemod","marble_gold"), new BlockItem(MARBLE_GOLD, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
 	}
 }
