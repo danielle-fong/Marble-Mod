@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "## ",
+      "## ",
+      "X  "
+    ],
+    "key": {
+      "#": {
+        "item": "marblemod:limestone_dark"
+      },
+      "X": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "result": {
+      "item": "marblemod:marble_gold"
+    }
+  }
