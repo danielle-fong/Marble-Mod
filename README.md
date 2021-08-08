@@ -1,9 +1,8 @@
-# Fabric Example Mod
+# Minecraft Marble Mod
 
-## Setup
+A minecraft mod that adds decorative marble blocks into your world!
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+❮img src="demos/marble.png" ❯
+❮img src="demos/room.png" ❯
+❮img src="demos/kitchen.png" ❯
+❮img src="demos/pool.png" ❯
