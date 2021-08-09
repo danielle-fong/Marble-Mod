@@ -6,7 +6,7 @@ Here is a demo of each marble block. Starting from the left: light marble, dark 
 ![](demos/marble.png)
 
 &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;  
-A demo of different marble blocks used to decorate a user's Minecraft world.
+A demo of different marble blocks used to decorate the player's Minecraft world.
 ![](demos/room.png)
 ![](demos/kitchen.png)
 ![](demos/pool.png)
